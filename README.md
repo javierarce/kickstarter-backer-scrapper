@@ -21,7 +21,7 @@ Get the public locations of the backers of a project on Kickstarter
 
         casperjs scrapper.js
     
-After the script is finished, ```location.txt``` will contain the captured locations.
+After the script is finished, ```locations.txt``` will contain the captured locations.
 
 ### What to do next?
 
