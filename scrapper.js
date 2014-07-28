@@ -24,7 +24,7 @@ function scroll(casper) {
     var backers   = this.getElementsInfo(".NS_backers__backing_row");
     var locations = this.getElementsInfo(".NS_backers__backing_row .location");
 
-    log(backers.length + " backers loaded with "  + locations.length + " locations", "white");
+    log(backers.length + " backers loaded. "  + locations.length + " locations captured.");
 
     if (info["visible"]) {
 
@@ -32,7 +32,7 @@ function scroll(casper) {
 
     } else {
 
-      log("We're done. Open locations.txt to see the captured locations.", "green");
+      log("\nWe're done. Open locations.txt to see the captured locations.", "green");
 
     }
 
@@ -50,7 +50,7 @@ casper.start(BACKERS_URL, function() {
 
   var info = this.getElementsInfo("[itemprop='Project[backers_count]']")
 
-  log("Getting location from " + info[0].text + " backers", "green");
+  log("Getting location from " + info[0].text + " backers\n", "green");
 
   scroll(this);
 
