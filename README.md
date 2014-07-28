@@ -15,8 +15,8 @@ Get the public locations of the backers of a project on Kickstarter
 
 3. Edit the file ```scrapper.js``` with the URL of the backers page of your choice:
 
-        BACKERS_URL = "https://www.kickstarter.com/projects/744985501/american-horn-quartet-en-cor-cd/backers"
-
+        BACKERS_URL = "https://www.kickstarter.com/projects/1307515311/night-in-the-woods/backers"
+        
 4. Run the scrapper:
 
         casperjs scrapper.js
