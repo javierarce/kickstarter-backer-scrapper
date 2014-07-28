@@ -25,4 +25,4 @@ After the script is finished, ```locations.txt``` will contain the captured loca
 
 ### What to do next?
 
-You could use [node-batch-geocoder](https://github.com/javierarce/node-batch-geocoder) to geocode the locations :)
+You could use [node-batch-geocoder](https://github.com/javierarce/node-batch-geocoder) to geocode the locations. You could also use [CartoDB](http://cartodb.com) to create a cool map.
