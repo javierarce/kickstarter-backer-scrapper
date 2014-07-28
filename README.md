@@ -3,7 +3,7 @@ kickstarter-backer-scrapper
 
 Get the public locations of the backers of a project on Kickstarter
 
-### Installation
+### Installation instructions (macosx)
 
 1. Install casper.js:
 
